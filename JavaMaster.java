@@ -54,4 +54,9 @@ public class JavaMaster {
             System.out.println(anotherNameList[i]);
         }
     }
+
+    private void someFunc(){
+        System.out.println("Do something");
+    }
+
 }

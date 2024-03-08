@@ -42,3 +42,11 @@ for i in range(5):
 another_name_list = ['Dante' , 'Blanca']
 for i,value in enumerate(another_name_list):
     print(another_name_list[i])
+    
+def some_func():
+    print('Do something')
+    
+def another_func(first , second):
+    print(first , second)
+    
+another_func(second='a', first=1)
